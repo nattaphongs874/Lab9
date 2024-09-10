@@ -9,6 +9,7 @@ namespace Lab9
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        int _width;
         bool isHit;
 
         int x = 999; 
