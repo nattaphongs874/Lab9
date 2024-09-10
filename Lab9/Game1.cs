@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 namespace Lab9
-{
+{   
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
@@ -11,6 +11,7 @@ namespace Lab9
 
         bool isHit;
 
+        int x = 999; 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
