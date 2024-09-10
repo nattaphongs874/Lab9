@@ -9,6 +9,8 @@ namespace Lab9
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        bool isHit;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
