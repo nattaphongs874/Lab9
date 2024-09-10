@@ -12,6 +12,9 @@ namespace Lab9
         bool isHit;
 
         int x = 999; 
+
+        private string input1 = "";
+        
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
